@@ -18,14 +18,9 @@ public class Main {
         phone.add("9");
         phone.add("10");
         phone.add("11");
-        phone.add(10,"Me lene mike");
+        phone.add(6,"Me lene mike");
 
-        phone.remove(2);
+        phone.forEach(System.out::println);
 
-        for(int i=0; i < phone.getSize(); i++){
-            System.out.println(phone.get(i));
-        }
-
-        System.out.println(phone.contains("3"));
     }
 }

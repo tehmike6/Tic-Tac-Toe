@@ -1,10 +1,11 @@
 package Model;
 
-import javafx.scene.control.Tab;
-
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.Objects;
+import java.util.function.Consumer;
 
-public class MyArraylist<E> {
+public class MyArraylist<E> implements Iterable<E>{
     private int size = 0;
     private static final int DEFAULT_CAPACITY = 10;
     private Object[] Table;
@@ -49,6 +50,7 @@ public class MyArraylist<E> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public E remove(int index){
         if(index > size)
             throw new IndexOutOfBoundsException();
@@ -66,7 +68,7 @@ public class MyArraylist<E> {
         return (E) e;
     }
 
-    public E remove(Object e){
+    public E remove(E e){
         for(int i = 0; i < size; i++){
             if(Table[i].equals(e)) return remove(i);
         }
@@ -77,6 +79,7 @@ public class MyArraylist<E> {
         return size;
     }
 
+    @SuppressWarnings("unchecked")
     public E get(int index){
         if(index > size)
             throw new IndexOutOfBoundsException();
@@ -86,7 +89,7 @@ public class MyArraylist<E> {
         return (E) Table[index];
     }
 
-    public boolean contains(Object e){
+    public boolean contains(E e){
         for(int i=0; i<size; i++){
             if(Table[i].equals(e)) return true;
         }
@@ -99,4 +102,33 @@ public class MyArraylist<E> {
     }
 
 
+    @Override
+    public Iterator<E> iterator() {
+        return new Iterator<E>() {
+            private int i = 0;
+            @Override
+            public boolean hasNext() {
+                return size > i;
+            }
+
+
+            @Override
+            @SuppressWarnings("unchecked")
+            public E next() {
+                return (E) Table[i++];
+            }
+        };
+    }
+
+    @Override
+    public void forEach(Consumer<? super E> action) {
+        Objects.requireNonNull(action);
+
+        @SuppressWarnings("unchecked")
+        final E[] NewTable = (E[]) this.Table;
+        final int size = this.size;
+        for (int i=0; i < size; i++) {
+            action.accept(NewTable[i]);
+        }
+    }
 }
