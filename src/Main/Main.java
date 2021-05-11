@@ -20,6 +20,10 @@ public class Main {
         phone.add("11");
         phone.add(6,"Me lene mike");
 
+        for(String s : phone){
+            System.out.println(s);
+        }
+
         phone.forEach(System.out::println);
 
     }
