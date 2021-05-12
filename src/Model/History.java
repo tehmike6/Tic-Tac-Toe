@@ -1,7 +1,8 @@
 package Model;
 
 public class History {
-    private int wins, loses;
+    private int wins, loses, draws;
+    private double score;
     private GameRecord[] latestGames, bestGames;
 
     public History() {
@@ -11,6 +12,21 @@ public class History {
         this.bestGames = new GameRecord[5];
     }
 
+    private void calculateScore() {
+        score = ((double)(50 * ((2 * wins) + draws))) / getTotalGames();
+    }
+
+    public double getScore() {
+        calculateScore();
+        return score;
+    }
+
+    public void setScore(double score) { this.score = score; }
+
+    public int getDraws() { return draws; }
+
+    public void setDraws(int draws) { this.draws = draws; }
+
     public int getWins() {
         return wins;
     }
@@ -19,8 +35,7 @@ public class History {
         this.wins = wins;
     }
 
-    public int getLoses() {
-        return loses;
+    public int getLoses() { return loses;
     }
 
     public void setLoses(int loses) {
@@ -28,7 +43,7 @@ public class History {
     }
 
     public int getTotalGames() {
-        return wins + loses;
+        return wins + loses + draws;
     }
 
     public GameRecord[] getLatestGames() {

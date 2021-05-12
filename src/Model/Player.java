@@ -4,7 +4,10 @@ public abstract class Player {
     private String name;
     private History history;
 
-    public Player(String name) {
+    public Player(String name) throws ForbiddenPlayerNameExc{
+        String trimedName = name.trim();
+        if(trimedName.length() > 20)
+            throw new ForbiddenPlayerNameExc("Player name must be max 20 chars long!");
         this.name = name;
         this.history = new History();
     }

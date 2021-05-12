@@ -59,11 +59,11 @@ public class TicTacToe {
         return TTT;
     }
 
-    public void setTicTacToe(int row, int col, Symbol s){
+    public void setTTT(int row, int col, Symbol s){
         TTT[row][col] = s;
     }
 
-    public Symbol getTicTacToe(int row, int col){
+    public Symbol getTTT(int row, int col){
         return TTT[row][col];
     }
 }
