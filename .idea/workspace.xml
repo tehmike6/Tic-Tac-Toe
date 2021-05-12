@@ -2,41 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TicTacToe.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/name.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arraylist.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Model/MyArraylist$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Model/MyArraylist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/ForbiddenPlayerNameExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/ForbiddenPlayerNameExc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/GameRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Hal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/Hal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/History.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/MrBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/MrBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/MyArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/MyArraylist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PlayerComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/PlayerComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PlayerNotFoundExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/PlayerNotFoundExc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/PlayerRoster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/PlayerRoster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/Statistics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Symbol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/TicTacToe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/BannerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/BannerPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/Board.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/o.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/GameBoard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/HallOfFame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/HallOfFame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/MainWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GameBoard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/HallOfFame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/HallOfFame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/View/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainWindow.java" afterDir="false" />
     </list>
-    <list id="13830c4a-0cd6-4677-a812-824934fd6c87" name="Changes by User" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Board.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/GameRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java" afterDir="false" />
-    </list>
+    <list id="13830c4a-0cd6-4677-a812-824934fd6c87" name="Changes by User" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +58,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MemorizeCards" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

@@ -15,17 +15,16 @@ public class MainWindow extends JFrame {
     public MainWindow(){
         super();
 
-        String[][] lol = new String[2][2];
-        lol[0][0] = "Titan Lukas";
-        lol[0][1] = "10000";
-        lol[1][0] = "Mike";
-        lol[1][1] = "100";
-
         topPanel = new BannerPanel();
         topPanel.setBounds(0,0,wndWidth,75);
-        hof = new HallOfFame(lol);
+        hof = new HallOfFame();
         hof.setBounds(275,75,550,wndHeight);
+        hof.setVisible(false);
 
+        board = new GameBoard();
+        board.setBounds(275,75,550,wndHeight);
+
+        this.add(board);
         this.add(topPanel);
         this.add(hof);
 
