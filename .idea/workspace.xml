@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TicTacToe.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/name.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arraylist.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Model/MyArraylist$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Arraylist/Model/MyArraylist.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/ForbiddenPlayerNameExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/ForbiddenPlayerNameExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/GameRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Hal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/Hal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/History.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/History.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MrBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/MrBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MyArraylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/MyArraylist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PlayerComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/PlayerComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PlayerNotFoundExc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Helpers/PlayerNotFoundExc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/PlayerRoster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/PlayerRoster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Statistics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/Statistics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Symbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/TicTacToe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/BannerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/BannerPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/HallOfFame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/HallOfFame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainWindow.java" afterDir="false" />
+    </list>
+    <list id="13830c4a-0cd6-4677-a812-824934fd6c87" name="Changes by User" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Model/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Board/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/GameRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="10" changelist="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" />
+        <range start1="3" end1="6" start2="12" end2="43" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/Model/Board/Board.java">
+      <ranges>
+        <range start1="0" end1="1" start2="0" end2="3" changelist="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" />
+        <range start1="6" end1="6" start2="8" end2="9" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
+        <range start1="14" end1="14" start2="17" end2="25" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
+      </ranges>
+    </file>
+  </component>
+  <component name="ProjectId" id="1sRJ5Rkaoa3bfS95U47lA24R0WA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main.Main" />
+      <module name="TicTacToe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="" />
+      <created>1620829286531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620829286531</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
