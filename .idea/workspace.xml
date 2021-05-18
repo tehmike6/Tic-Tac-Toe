@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="" />
+    <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GameBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/View/PlayerPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/PlayerPanel.java" afterDir="false" />
+    </list>
     <list id="13830c4a-0cd6-4677-a812-824934fd6c87" name="Changes by User" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +22,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/Model/Statistics/GameRecord.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="10" changelist="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" />
-        <range start1="3" end1="6" start2="12" end2="43" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/Model/Board/Board.java">
-      <ranges>
-        <range start1="0" end1="1" start2="0" end2="3" changelist="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" />
-        <range start1="6" end1="6" start2="8" end2="9" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
-        <range start1="14" end1="14" start2="17" end2="25" changelist="13830c4a-0cd6-4677-a812-824934fd6c87" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1sRJ5Rkaoa3bfS95U47lA24R0WA" />
   <component name="ProjectLevelVcsManager">
@@ -93,6 +83,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

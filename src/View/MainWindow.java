@@ -17,18 +17,29 @@ public class MainWindow extends JFrame {
 
         topPanel = new BannerPanel();
         topPanel.setBounds(0,0,wndWidth,75);
+
         hof = new HallOfFame();
         hof.setBounds(275,75,550,wndHeight);
-        hof.setVisible(false);
 
         board = new GameBoard();
         board.setBounds(275,75,550,wndHeight);
 
+        leftPanel = new PlayerPanel();
+        leftPanel.setBounds(0,75,275,wndHeight);
+
+        rightPanel = new PlayerPanel();
+        rightPanel.setBounds(825,75,wndWidth,wndHeight);
+
+
         this.add(board);
+        this.add(rightPanel);
         this.add(topPanel);
         this.add(hof);
+        this.add(leftPanel);
+
 
         // Settings for the JFrame
+        setResizable(false);
         setSize(wndWidth, wndHeight);
         setBackground(Color.BLACK);
         setTitle("Tic Tac Toe");

@@ -8,6 +8,8 @@ public class GameBoard extends JPanel {
     private JLabel currentPlayer;
 
     public GameBoard(){
+        super();
+
         TTT = new JButton[3][3];
         currentPlayer = new JLabel("main");
 
@@ -42,8 +44,8 @@ public class GameBoard extends JPanel {
         this.setLayout(null);
     }
 
-    public void setCurrentPlayer(JLabel currentPlayer) {
-        this.currentPlayer = currentPlayer;
+    public void setCurrentPlayer(String playerName) {
+        this.currentPlayer = new JLabel(playerName);;
     }
 
     public JButton[][] getTTT() {
