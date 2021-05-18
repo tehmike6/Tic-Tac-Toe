@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Images/Board.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Images/x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/GameBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/GameBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/HallOfFame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/HallOfFame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTacToe/View/MainWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTacToe/View/MainWindow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/GameBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/GameBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/HallOfFame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/HallOfFame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/View/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/View/MainWindow.java" afterDir="false" />
-    </list>
+    <list default="true" id="f9265a76-9456-4dd3-a4bf-2b7decf5f21d" name="Default Changelist" comment="" />
     <list id="13830c4a-0cd6-4677-a812-824934fd6c87" name="Changes by User" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
