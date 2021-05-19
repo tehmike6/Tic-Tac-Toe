@@ -8,6 +8,7 @@ public class History {
     public History() {
         this.wins = 0;
         this.loses = 0;
+        this.draws = 0;
         this.latestGames = new GameRecord[5];
         this.bestGames = new GameRecord[5];
     }
@@ -21,25 +22,25 @@ public class History {
         return score;
     }
 
-    public void setScore(double score) { this.score = score; }
+    public void incScore(double score) { this.score = score; }
 
     public int getDraws() { return draws; }
 
-    public void setDraws(int draws) { this.draws = draws; }
+    public void incDraws() { this.draws++; }
 
     public int getWins() {
         return wins;
     }
 
-    public void setWins(int wins) {
-        this.wins = wins;
+    public void incWins() {
+        this.wins++;
     }
 
     public int getLoses() { return loses;
     }
 
-    public void setLoses(int loses) {
-        this.loses = loses;
+    public void incLoses() {
+        this.loses++;
     }
 
     public int getTotalGames() {

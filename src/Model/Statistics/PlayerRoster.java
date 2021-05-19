@@ -9,8 +9,18 @@ import java.util.Arrays;
 public class PlayerRoster {
     private MyArraylist<Player> roster;
 
+    public PlayerRoster() {
+        this.roster = new MyArraylist<Player>();
+    }
+
     public void addPlayer(Player p) {
+        if(roster.contains(p))
+            return;
         roster.add(p);
+    }
+
+    public MyArraylist<Player> getRoster() {
+        return roster;
     }
 
     public MyArraylist<String> findPlayerNames() {

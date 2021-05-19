@@ -30,4 +30,9 @@ public abstract class Player {
     public void setHistory(History history) {
         this.history = history;
     }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 }

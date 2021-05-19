@@ -21,6 +21,7 @@ public class BannerPanel extends JPanel {
         addPlayerBtn.setFont(new Font("Arial", Font.PLAIN,12));
         doneBtn.setBounds(500,22,100,30);
         doneBtn.setFont(new Font("Arial", Font.PLAIN,12));
+        doneBtn.setEnabled(false);
 
         this.add(doneBtn);
         this.add(addPlayerBtn);

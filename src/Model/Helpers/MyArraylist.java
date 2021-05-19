@@ -131,4 +131,8 @@ public class MyArraylist<E> implements Iterable<E>{
             action.accept(NewTable[i]);
         }
     }
+
+    public Object[] getTable() {
+        return Table;
+    }
 }

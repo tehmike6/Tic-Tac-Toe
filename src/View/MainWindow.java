@@ -1,5 +1,8 @@
 package View;
 
+import Model.Board.Symbol;
+import Model.Players.Player;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -12,7 +15,7 @@ public class MainWindow extends JFrame {
     private final int wndHeight = 800;
     private final int wndWidth = 1100;
 
-    public MainWindow(){
+    public MainWindow(Player p1, Player p2){
         super();
 
         topPanel = new BannerPanel();
@@ -23,13 +26,13 @@ public class MainWindow extends JFrame {
 
         board = new GameBoard();
         board.setBounds(275,75,550,wndHeight);
+        board.disableTTT();
 
-        leftPanel = new PlayerPanel();
+        leftPanel = new PlayerPanel(Symbol.X, p1);
         leftPanel.setBounds(0,75,275,wndHeight);
 
-        rightPanel = new PlayerPanel();
+        rightPanel = new PlayerPanel(Symbol.O, p2);
         rightPanel.setBounds(825,75,wndWidth,wndHeight);
-
 
         this.add(board);
         this.add(rightPanel);
